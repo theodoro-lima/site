@@ -1,0 +1,163 @@
+/* GERAL */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.btn-orange{
+    background-color: orangered;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+}
+
+/* INICIO ESTILO HEADER */
+.header{
+    background-color: #232323;
+    width: 100%;
+    height: 80px;
+    border-bottom: solid orangered 3px;
+    position: fixed;
+}
+
+.header h1{
+    float: left;
+    color: white;
+}
+
+.header ul{
+    /* Tira as 'bolinhas' da lista */
+    list-style: none;
+    float: right;
+}
+
+.header h1, .header ul{
+    margin-top: 20px;
+}
+
+.header li{
+    /* coloca os elementos <li> na mesma linha como blocos */
+    display: inline-block;
+    
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 6px;
+    border-radius: 5px;
+    background-color: #444444;
+}
+
+.header ul li a{
+    /* Tira o estilo de 'link' */
+    text-decoration: none;
+    color: white;
+}
+
+.header .text-orange{
+    color: orangered;
+    font-weight: bold;
+}
+
+.banner{
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    background-color: rebeccapurple;
+    background-image: url(./img/morangos.jpg);
+    background-size: cover;
+}
+
+.banner h1{
+    padding-top: 170px;
+    font-size: 100px;
+    font-weight: lighter;
+    color: white;
+}
+
+.banner h3{
+    font-size: 25px;
+    font-weight: lighter;
+    margin-top: 15px;
+}
+
+.news{
+    width: 100%;
+    height: 20px;
+    background-color: #232323;
+    text-align: center;
+}
+
+.news button{
+    margin-top: 25px;
+}
+
+.box{
+text-align: center;
+}
+
+.box-item{
+display: inline-block;
+width: 32%;
+}
+
+.box-item img{
+    width: 100px;
+    margin-top: 35px;
+}
+
+.box-item h3, .box-item p{
+    margin-top: 15px;
+}
+
+.imagem_direita{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    height: auto;
+    align-items: center;
+    margin: 100px auto 100px auto;
+}
+
+.imagem_direita img{
+    width: 30%;
+    margin: 50px;
+    padding: 0px;
+    border-radius: 40px;
+}
+
+.texto_direita{
+    width: 80%;
+}
+
+.texto_direita h2{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80%;
+}
+
+.texto_direita p{
+    line-height: 28px;
+    font-size: 22px;
+    text-align: left;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #232323;
+    color: white;
+    text-align: center;
+  }
+
